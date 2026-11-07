@@ -1,3 +1,23 @@
 baseURL = 'https://michaelperez.dev'
 languageCode = 'en-us'
-title = 'Personal website'
+defaultContentLanguage = "en"
+title = 'Michael Pérez'
+theme = 'hugo-coder'
+
+[params]
+  author = "Michael Pérez"
+  info = "Software Engineer"
+  description = "Michael's Personal Website"
+  keywords = "blog,software engineer,personal"
+  gravatar = "perez.michael.d@gmail.com"
+  colorScheme = "dark"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "posts/"
+
